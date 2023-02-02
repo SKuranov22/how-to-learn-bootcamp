@@ -113,7 +113,7 @@
 }
 
 .two-columns__paragraph {
-  margin: 0 auto 30px; 
+  margin: 0 auto 30px;
   font-size: 24px;
   font-weight: normal;
 }
@@ -187,7 +187,9 @@
   font-weight: 600;
 }
 
-.table__heading_theme_dark{}
+.table__heading_theme_dark{
+  color: white;
+}
 
 .table__text {
   margin: 20px 0 0;
@@ -195,7 +197,9 @@
   font-weight: normal;
 }
 
-.table__text_theme_dark {}
+.table__text_theme_dark {
+  color: white;
+}
 
 .feynman {
   display: flex;
