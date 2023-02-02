@@ -248,11 +248,10 @@
 
 .kaufman {
   position: relative;
+  overflow: hidden;
   height: 810px;
   background-color: #1f1f1f;
-  overflow: hidden; 
-  z-index: 0;
-}
+  z-index: 0;}
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
