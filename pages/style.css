@@ -1,3 +1,19 @@
+/* блок logo */
+@import url(../blocks/logo/logo.css);
+
+/* модификатор logo_place */
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -67,24 +83,8 @@
   z-index: 1;
 }
 
-.logo {
-  position: relative;
-}
-
-.logo_place_header {
-  position: absolute;
-  background-image: url(../images/logo_place_header.svg);
-  width: 228px;
-  height: 32px;
-  top: 30px;
-  left: 64px;
-}
-
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
-  width: 228px;
-  height: 32px;
-  align-items: flex-start;
+.header__square-pic_transform_rotation {
+  animation: rotation 20s linear infinite .4s;
 }
 
 .description {
@@ -156,6 +156,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
 }
 
 .table {
