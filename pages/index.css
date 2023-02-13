@@ -103,7 +103,6 @@
 @import url(../blocks/kaufman/kaufman.css);
 
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-@import url(../blocks/kaufman/__triangle/_transform/kaufman__triangle_transform_rotation.css);
 
 /* блок resources */
 @import url(../blocks/resources/resources.css);
@@ -125,4 +124,6 @@
 
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
