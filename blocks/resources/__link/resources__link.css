@@ -1,6 +1,4 @@
 .resources__link {
-    display: flex;
-    justify-content: center;
     opacity: 1;
     transition: opacity .5s;
 }
