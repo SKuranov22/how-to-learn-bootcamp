@@ -1,7 +1,6 @@
 .kaufman {
     position: relative;
     overflow: hidden;
-    min-height: 810px;
     background-color: #1f1f1f;
     z-index: 0;
 }

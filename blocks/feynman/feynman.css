@@ -2,7 +2,8 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    padding: 100px 100px 0;
+    box-sizing: border-box;
+    padding: 100px 0 0;
     background-color: #f2f2f2;
     min-height: 890px;
 }

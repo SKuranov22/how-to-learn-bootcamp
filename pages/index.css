@@ -1,5 +1,5 @@
 /* подключаем normalize.css */
-@import url(../vendor/fonts/normalize.css);
+@import url(../vendor/normalize.css);
 
 /* блок page */
 @import url(../blocks/page/page.css);
@@ -10,13 +10,13 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 
-@import url(../blocks/opacity/opacity.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+
+/* блок rotation */
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/header/__square-pic/_transform/header__square-pic_transform_rotation.css);
 
 /* блок logo */
 @import url(../blocks/logo/logo.css);
@@ -26,7 +26,7 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
 /* блок description */
-@import url(../blocks/description/decription.css);
+@import url(../blocks/description/description.css);
 
 /* блок two-columns */
 @import url(../blocks/two-columns/two-columns.css);
@@ -77,6 +77,7 @@
 
 /* блок table */
 @import url(../blocks/table/table.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
